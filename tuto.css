@@ -77,6 +77,9 @@ button h2{
 button a{
       text-decoration: none;
 }
+#plus{
+    width: 100%;
+}
 
 li a{
     text-decoration: none;
@@ -98,7 +101,7 @@ li a{
 }
 img{
     margin-top: 15px;
-    border-radius: 60%;
+    border-radius: 40%;
 }
 section div div ul {
     display: flex;
@@ -184,5 +187,25 @@ section#experiences ul li{
     background-color: blue;
     width: 75%;
     color: white;
+
+}
+.service-desc{
+    border: 2px solid red;
+    width: 40%;
+    margin: 2% auto;
+}
+.services-contain{
+    display: flex;
+}
+#services{
+    background-color: aqua;
+    margin: 1% auto;
+}
+#contact{
+    background-color: beige;
+    margin-bottom: 0%;
+}
+#footer{
+    display: flex;
 
 }

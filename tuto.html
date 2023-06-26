@@ -32,7 +32,7 @@
             <section id="presentation">
                 <div class="wrapper">
                     <div id="presentation-image">
-                        <img src="maPhoto.jpg" alt="Photo de Moi" width="45%" height="100%" >
+                        <img src="maPhoto.png" alt="Photo de Moi" width="45%" height="100%" >
                     </div>
                         <div id="presentation-text">
                             <p>
@@ -77,20 +77,28 @@
                              L'administrateur pilote le déroulement de la tontine. Ainsi ce dernier doit assurer l'authentification des membres qui souhaite créer un groupe de tontine, il prend en charge le tirage au sort et la suppression de groupes.<br>
                               Un membre à son tour a la possibilité de s'inscrire, de créer ou rejoindre un groupe de tontine. Ce dernier peut également consulter l'historiques des cotisations ainsi que celui des tirages. 
                         </p>
-                       <br><br><div><button class="bouton"><h2>voir plus</h2></button></div> 
+                       <br><br><div><button class="bouton" id="plus"><h2>voir plus</h2></button></div> 
                     </aside>
                 </div>
             </section>
             <section id="services">
                 <div class="wrapper">
                     <h2>Services</h2>
-                    <div >
-                        <aside id="top-left"></aside>
-                        <aside id="top-right"></aside>
+                    <div class="services-contain" >
+                        <aside class="service-desc">
+                            <h2 >developpement d'application</h2>
+                        </aside>
+                        <aside class="service-desc">
+                            <h2 >Programmation langage</h2>
+                        </aside>
                     </div>
-                    <div>
-                        <aside id="bottom-left"></aside>
-                        <aside id="bottom-right"></aside>
+                    <div class="services-contain">
+                        <aside id="bottom-left" class="service-desc">
+                           <h2 > Modelisation</h2>
+                        </aside>
+                        <aside id="bottom-right" class="service-desc">
+                            <h2 >Administration d'Application</h2>
+                        </aside>
                     </div>
                 </div>
             </section>
@@ -129,16 +137,18 @@
                     </aside>
                     <aside id="contact-right">
                         <form>
-                            <input type="text" placeholder="Prenom et Nom" class="input">
-                            <input type="email" placeholder="E-mail" class="input">
+                            <input type="text" value="" class="input">
+                            <input type="email" value="Email" class="input">
                             <input type="Message" value="Message" class="input">
                             <input type="button" value="Envoyer" class="input">
                         </form>
                     </aside>
                 </div>
             </section>
-            <footer>
-
+            <footer id="footer">
+                <div class="wrapper">
+                    <span class="logo">NDT</span>
+                </div>
             </footer>
     </body>
 </html>
